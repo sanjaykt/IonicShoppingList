@@ -5,7 +5,7 @@ import {Item} from "../../models/items/item";
 @Injectable()
 export class ShoppingListService {
 
-  private shoppingListRef = this.db.list<Item>('shopping-list');
+  private shoppingListRef = this.db.list<Item>('shopping-list2');
 
   constructor(private db: AngularFireDatabase) {
 
